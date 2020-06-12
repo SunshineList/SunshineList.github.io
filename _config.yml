@@ -3,9 +3,9 @@ title: wangzw - Blog
 SEOTitle: 王正午的博客 | BY Blog
 header-img: img/post-bg-desk.jpg
 email: wzw571603974@qq.com
-description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 王正午博客, outputbug.com, 王正午, iOS, Apple, iPhone"
-url: "http://wangzw.github.io"          # your host, for absolute URL
+description: "Just Do It"
+keyword: "Blog, 王正午博客, outputbug.com, 王正午, python,"
+url: "http://outputbug.com"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
