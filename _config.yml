@@ -3,11 +3,11 @@ title: wangzw - Blog
 SEOTitle: 王正午的博客 | BY Blog
 header-img: img/post-bg-desk.jpg
 email: wzw571603974@qq.com
-description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 王正午博客, outputbug.com, 王正午, iOS, Apple, iPhone"
-url: "http://wangzw.github.io"          # your host, for absolute URL
+description: "Just Do It"
+keyword: "Blog, 王正午博客, outputbug.com, 王正午, python,"
+url: "http://outputbug.com"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/SunshineList/sunshinelist.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -59,15 +59,15 @@ kramdown:
 # Disqus（https://disqus.com/）
 disqus_username: wangzwSun
 
-# Gitalk
-# gitalk:
-#   enable: true    #是否开启Gitalk评论
-#   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-#   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-#   repo: qiubaiying.github.io    #仓库名称
-#   owner: qiubaiying    #github用户名
-#   admin: qiubaiying
-#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 35274a88fae03aa1fb1c                            #生成的clientID
+  clientSecret: eaa26ef51e1a526d2f88e8422b102e73dc6b03d8    #生成的clientSecret
+  repo: sunshinelist.github.io    #仓库名称
+  owner: SunshineList    #github用户名
+  admin: SunshineList
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
