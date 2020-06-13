@@ -11,7 +11,7 @@ tags:
 ---
 
 # Celery图解
-  ![avatar](../img/celery.jpg)
+  ![avatar](http://outputbug.com/img/celery.jpg)
 
   如上图所示，由三部分组成：消息中间件（message broker）、任务执行单元（worker）、任务执行结果存储（task result store）
 
