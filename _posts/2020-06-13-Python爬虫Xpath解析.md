@@ -4,7 +4,7 @@ title:      Python爬虫
 subtitle:   Python爬虫
 date:       2020-06-14
 author:     wangzw
-header-img: img/bg.jpeg
+header-img: img/spider/bg.jpg
 catalog: true
 tags:
     - 爬虫
@@ -37,7 +37,7 @@ tags:
 # 实例
 ### 爬取豆瓣Top250电影排行
    ![avatar](http://outputbug.com/img/spider/movie.png)
-   # 原理
+### 原理
         由于豆瓣是有反爬机制的我们需要伪装一下自己的请求,也就是 User-Agent 对于User-Agent F12开发者工具中请求能找到主要是通过伪装浏览器去访问目标链接,
     我这里的请求用到的是 requests 模块没有使用urllib，这个是豆瓣的目标链接url = 'https://movie.douban.com/top250?start='，主要是通过这个链接区爬取
     数据由于每页只有25条数据，通过发现翻页是url的变化找到规律，就是 i * 25 (i从1 - 10)就能爬下250条数据，
@@ -135,8 +135,8 @@ commit_db('movie', data)
 
 # 总结
   
-        爬虫最重要的还是要思路清晰，在HTML文本中找到对应你想爬取的内容，并用类似bs , Xpath这样的工具去解析，
-    其次遇到翻页也要去找翻页url的规律就像这个实例一样，在Chrome中Xpath有个好用的插件 Xpath Helper，可以通
-    过插件找到内容后，粘贴到代码还是挺方便的，这个实例中处理反爬仅仅用到了User-Agent，其实反爬机制还是有很多
-    东西可以探索的，后续博客会有更新到内容，这个实例可以当做大家的入门实例，希望大家好好学习，也可以给博主提提
-    意见
+   爬虫最重要的还是要思路清晰，在HTML文本中找到对应你想爬取的内容，并用类似bs , Xpath这样的工具去解析，
+其次遇到翻页也要去找翻页url的规律就像这个实例一样，在Chrome中Xpath有个好用的插件 Xpath Helper，可以通
+过插件找到内容后，粘贴到代码还是挺方便的，这个实例中处理反爬仅仅用到了User-Agent，其实反爬机制还是有很多
+东西可以探索的，后续博客会有更新到内容，这个实例可以当做大家的入门实例，希望大家好好学习，也可以给博主提提
+意见
