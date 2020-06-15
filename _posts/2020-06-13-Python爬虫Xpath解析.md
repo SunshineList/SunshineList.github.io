@@ -128,9 +128,9 @@ commit_db('movie', data)
 ```
 
 # 效果图
-  ### Excel效果图
+### Excel效果图
 ![avatar](http://outputbug.com/img/spider/movie_excel.png)
-  ### Mysql效果图
+### Mysql效果图
 ![avatar](http://outputbug.com/img/spider/db_movie.png)
 
 # 总结
